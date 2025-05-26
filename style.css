@@ -1,0 +1,29 @@
+body{
+  display: flex;
+}
+.main{
+  width:300px;
+  border: solid 3px black;
+  margin: auto;
+  padding: 10px;
+}
+.input{
+  display: flex;
+  margin-bottom: 10px;
+}
+.display{
+  height: 30px;
+  width: 270px;
+  margin: auto;
+}
+.initialRow{
+  display: flex;
+  margin: auto;
+  
+  justify-content: space-around;
+}
+.initialButton{
+  width: 130px;
+  border: 2px solid blue;
+  height: 20px;
+}
