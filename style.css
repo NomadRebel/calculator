@@ -16,14 +16,41 @@ body{
   width: 270px;
   margin: auto;
 }
-.initialRow{
+.keys{
   display: flex;
   margin: auto;
-  
+  margin-top: 10px;
+  justify-content: space-around;  
+}
+.initialRow
+{ 
+  display: flex;
+  margin: auto;
   justify-content: space-around;
 }
 .initialButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 130px;
   border: 2px solid blue;
-  height: 20px;
+  height: 30px;
+  font: 20px bold;
+
+}
+.button,
+.addButton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid red;
+  width: 45px;
+  padding: 10px;
+  font: 20px bold;
+}
+.addButton{
+  height: 70px;
+  text-align: center;
+  font: 20px bold;
+
 }
