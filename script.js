@@ -34,11 +34,12 @@ function operation(a,b,c){
   }
 }
 
-
-
-const a = Number("2");
-const o = "/";
-const b = Number("0");
-// console.log(typeof(o));
-// console.log(a);
-console.log(operation(a,o,b));
+document.querySelectorAll('button').forEach(button => {
+  button.addEventListener("click", () => {
+    document.getElementById("item").value=button.value;
+    const input1 = document.getElementById("item").value;
+    console.log(input1);
+    const input2 = document.getElementById("item").value;
+    console.log(input2);
+  });
+});

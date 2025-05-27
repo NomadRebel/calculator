@@ -3,16 +3,18 @@ body{
 }
 .main{
   width:300px;
+  height: 350px;
   border: solid 3px black;
   margin: auto;
   padding: 10px;
+  background-color: aqua;
 }
 .input{
   display: flex;
   margin-bottom: 10px;
 }
 .display{
-  height: 30px;
+  height: 50px;
   width: 270px;
   margin: auto;
 }
@@ -20,7 +22,8 @@ body{
   display: flex;
   margin: auto;
   margin-top: 10px;
-  justify-content: space-around;  
+  justify-content: space-around;
+  align-items: center;  
 }
 .initialRow
 { 
@@ -28,29 +31,46 @@ body{
   margin: auto;
   justify-content: space-around;
 }
-.initialButton{
+.initialC,
+.initialMulti{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 130px;
-  border: 2px solid blue;
+  border: 2px solid rgb(229, 255, 0);
   height: 30px;
   font: 20px bold;
-
+  background-color: rgb(229, 255, 0);
+  border-radius: 10px;
 }
+.initialC{
+  background-color: rgb(255, 77, 77);
+  border-color:rgb(255, 77, 77)
+}
+
+
 .button,
-.addButton{
+.addButton,
+.equalButton{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid red;
+  border: 2px solid rgb(229, 255, 0);
+  border-radius: 100px;
   width: 45px;
   padding: 10px;
   font: 20px bold;
+  background-color: rgb(229, 255, 0);
+  /* margin-top: 10px; */
+  margin-bottom:10px;
 }
 .addButton{
-  height: 70px;
+  height: 80px;
   text-align: center;
   font: 20px bold;
-
+  margin-top: 5px;
+}
+.equalButton{
+  background-color: rgb(1, 206, 1);
+  border-color: rgb(1, 206, 1);
 }
