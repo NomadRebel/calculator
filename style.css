@@ -50,7 +50,7 @@ body{
 
 
 .button,
-.addButton,
+.buttonSymbol,
 .equalButton{
   display: flex;
   align-items: center;
