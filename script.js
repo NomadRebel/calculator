@@ -76,7 +76,7 @@ buttons.forEach((button) => {
         b = '';
         c = '';
       }
-    } else if (val === '') {
+    } else if (val === 'clear') {
       // clear button
       a = '';
       b = '';

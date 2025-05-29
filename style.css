@@ -8,6 +8,7 @@ body{
   margin: auto;
   padding: 10px;
   background-color: aqua;
+  border-radius: 10px;
 }
 .input{
   display: flex;
@@ -17,6 +18,7 @@ body{
   height: 50px;
   width: 270px;
   margin: auto;
+  font-size: 28px;
 }
 .keys{
   display: flex;
@@ -42,6 +44,7 @@ body{
   font: 20px bold;
   background-color: rgb(229, 255, 0);
   border-radius: 10px;
+  cursor: pointer;
 }
 .initialC{
   background-color: rgb(255, 77, 77);
@@ -52,24 +55,20 @@ body{
 .button,
 .buttonSymbol,
 .equalButton{
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 2px solid rgb(229, 255, 0);
   border-radius: 100px;
-  width: 45px;
+  width: 65px;
   padding: 10px;
   font: 20px bold;
   background-color: rgb(229, 255, 0);
   /* margin-top: 10px; */
   margin-bottom:10px;
 }
-.addButton{
-  height: 80px;
-  text-align: center;
-  font: 20px bold;
-  margin-top: 5px;
-}
+
 .equalButton{
   background-color: rgb(1, 206, 1);
   border-color: rgb(1, 206, 1);
