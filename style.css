@@ -3,7 +3,7 @@ body{
 }
 .main{
   width:300px;
-  height: 350px;
+  height: 330px;
   border: solid 3px black;
   margin: auto;
   padding: 10px;
@@ -67,6 +67,10 @@ body{
   background-color: rgb(229, 255, 0);
   /* margin-top: 10px; */
   margin-bottom:10px;
+}
+.buttonSymbol{
+  background-color: rgb(180, 145, 212);
+  border-color:  rgb(163, 117, 206);
 }
 
 .equalButton{
